@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1">
+        <tr>
+            <th>Commission Type</th>
+            <th>Fullbody Illustration</th>
+            <th>Halfbody Illustration</th>
+            <th>Headshot Illustration</th>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                <ul>
+                    <li>Full color</li>
+                    <li>Simple Background</li>
+                    <li>Full-body character</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Full color</li>
+                    <li>Simple Background</li>
+                    <li>Half-body character</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Full color</li>
+                    <li>Simple Background</li>
+                    <li>Bust of the character</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Price</th>
+            <td>25USD</td>
+            <td>20USD</td>
+            <td>15USD</td>
+        </tr>
+    </table>
+
+    <form method="post" action="contact">
+        <label for="checkbox">Want recieve information about Fuzzy's commission queue?
+            <label><input type="checkbox" value="">Yes</label>
+        </label>
+        <br>
+        <br>
+        <label>Commission type:
+            <select name="tipo" id="com">
+                <option>Fullbody</option>
+                <option>Halfbody</option>
+                <option>Headshot</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>Commission details:
+            <input type="text" placeholder="Specifications and details">
+        </label>
+        <br>
+        <br>
+        <label>Email:
+            <input type="email" placeholder="your_email@address.com">
+        </label>
+        <input type="reset" value="Clear"> 
+        <input type="submit" value="Request">
+    </form>
+
+</body>
+</html>
